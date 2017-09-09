@@ -1,0 +1,60 @@
+body {
+	background-color:lightblue;
+    
+
+}
+
+nav {
+	background: white;
+	background-image: url("http://vit.acm.org/images/ACMVIT%20Original.png") ;
+	background-repeat: no-repeat;
+    background-position: center;
+
+	color: rgb(0,200,0);
+	padding: 10px;
+}
+
+ul{
+	font-family: arial;
+	align-content: right;
+}
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 5px 2px 2px;
+	
+	
+    
+	
+}
+li a:hover {
+    background-color:green;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+header {
+    padding:5px;
+    background-color: rgb(0,12,100);
+    clear: left;
+}
+ footer {
+    padding: 1em;
+    color: white;
+    background-color:darkblue;
+    clear: left;
+    text-align: center;
+}
+div {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
